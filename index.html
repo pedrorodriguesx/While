@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Aula While</h1>
+
+        <script>
+            //Criar variavel 
+            //Tipo texto - STRING
+            //Tipo inteiro - INT
+            //Tipo real - FLOAT
+            while (true) {
+            var usuario = prompt("Digite seu usuário")
+            var senha = parseInt(prompt("Digite sua senha"))
+
+            if(usuario == "pedro.s@br.com" && senha == "0403") {
+                window.location.href = "/page.html"
+                break;
+            } else{
+                document.write("Usuário ou senha incorretos, tente novamente!")
+            }
+        }
+        </script>
+    </center>
+</body>
+</html>
